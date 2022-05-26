@@ -3,16 +3,23 @@ Together-2
  */
  body{
 	background:#B3B3B3;
-	margin:2%;
+	margin:5%;
 	font-size: 150%;
 
 }
 
-header{
-	background: #00b7ea;
-	text-align: center;
-	padding-bottom: 15px;
+header > h1{
+	background: #626566;
+	text-align: right;
+	/* border: transparent solid 15px; */
+
 }
+header{
+	background: #626566;
+	text-align: left;
+	padding: 15px;
+}
+
 
 h1{
 	color: #ffffff;
@@ -25,15 +32,16 @@ nav{
 }
 
 h2{
-	color: #666666;
-	background: #00b7ea;
+	color: #000000;
+	background: #909292;
+    padding:7px;
 }
 
 section{
 	width:30%;
 	margin-right: 2%;
 	display:inline-block;
-	float:left;
+	float: left;
 }
 
 summary{
@@ -45,13 +53,23 @@ details{
 }
 
 footer{
-	background: #00b7ea;
+	background: #b3b9bb;
 	height:100px;
 	clear: both;
 }
 
 img{
-	width: 75px;
+	width: 61px;
 }
+/* a {
 
+    /* display: block; */
+    /* font-weight: bold; */
+    color: #ffffff;
+    background-color: #0006CC;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+} */
 
